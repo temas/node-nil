@@ -1,14 +1,12 @@
 {
-  "author": "",
+  "author": "Thomas \"temas\" Muldowney <temas@singly.com>",
   "name": "nil",
   "description": "A nil object for javascript",
   "version": "0.1.0",
   "repository": {
-    "url": ""
+    "url": "https://temas@github.com/temas/node-nil.git"
   },
   "engines": {
     "node": "~0.6.7"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }

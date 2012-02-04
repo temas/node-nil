@@ -33,3 +33,9 @@ console.log(Object.keys(x));
 console.log(x.test);
 
 console.log(x.unknown);
+
+y = {};
+y.__proto__ = nil;
+y.what = "Test";
+console.log(y.what);
+console.log(y.huh);
