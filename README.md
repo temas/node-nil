@@ -10,14 +10,14 @@ to check values.
 
 Here's a JSON.parse wrapper to use nil:
 
-  var nil = require("nil");
-  function json_parse(str) {
-      var js = {}
-      try {
-        js = JSON.parse(str);
-      } catch(E) {
-      }
-      js.__proto__ = nil.Nil();
-      return js;
-  }
+    var nil = require("nil");
+    function json_parse(str) {
+        var js = {}
+        try {
+          js = JSON.parse(str);
+        } catch(E) {
+        }
+        js.__proto__ = nil.Nil();
+        return js;
+    }
 
