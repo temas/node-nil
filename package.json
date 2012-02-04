@@ -1,0 +1,14 @@
+{
+  "author": "",
+  "name": "nil",
+  "description": "A nil object for javascript",
+  "version": "0.1.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.6.7"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
