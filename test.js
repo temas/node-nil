@@ -27,3 +27,9 @@ for (val in x) {
 }
 
 console.log(Object.keys(x));
+
+x.test = "Another test";
+console.log(Object.keys(x));
+console.log(x.test);
+
+console.log(x.unknown);
